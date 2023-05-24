@@ -1,0 +1,55 @@
+* {
+    color: white;
+    font-family: Arial;
+}
+body {
+    background-color: rgb(33, 33, 33);
+}
+h2 {
+    margin-top: 0px;
+}
+button {
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+button:hover {
+    border-color: white;
+    cursor: pointer;
+}
+input {
+    color: black;
+    font-family:Arial, 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+}
+label {
+    color: rgb(120, 120, 120);
+    font-size: 12px;
+}
+img {
+    height: 150px;
+    width: 200px;
+}
+a {
+    text-decoration: none;
+}
+i {
+    font-size: 12px;
+}
+table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+#top {
+    border-bottom: 2px solid white;
+}
+#mid1, #mid2 {
+    display: flex;
+}
+.l, .r {
+    width: 50%;
+}
+#l {
+    border-right: 2px solid white;
+}
+canvas {
+    border-bottom: 2px solid white;
+}

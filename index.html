@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stil.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js"></script>
+        <script src="script.js"></script>
+        <title>:c</title>
+    </head>
+    <body>
+        <div id="top">
+            <div id="topinfo">
+                <h1>OutOnBike - Datavisning</h1>
+                <p>Vel ei .csv fil frå 'data' mappa, og sida vil vise den fram som diagramm og tabell.</p>
+            </div>
+            <div id="topinput">
+                <input type="file" id="filename">
+                <button id="getFile">Last inn fila</button>
+            </div>
+            <br>
+        </div>
+        <div id="mid1">
+            <div class="l">
+                <canvas id="diagramm1"></canvas>
+            </div>
+            <div class="r">
+                <canvas id="diagramm2"></canvas>
+            </div>
+        </div>
+        <br>
+        <div id="mid2">
+            <div class="l">
+                <table id="tabell1">
+                    
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
